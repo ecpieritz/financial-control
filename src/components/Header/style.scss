@@ -11,10 +11,10 @@
     width: 120px;
     display: flex;
     justify-content: space-between;
-    .fill-secondary{
-      transition: fill 1s ease-out 100ms;
+    .fill-dark-primary{
+      transition: fill .5s ease-out 100ms;
       &:hover{
-        fill: $light-secondary-color;
+        fill: $light-primary-color;
       }
     }
     @media (max-width: 680px){

@@ -8,26 +8,36 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #868686;
+  color: $text-color;
 }
 
 // START Colors
 .text-primary{
   color: $primary-color;
 }
-.text-secondary{
-  color: $secondary-color;
+.text-light-primary{
+  color: $light-primary-color;
+}
+.text-dark-primary{
+  color: $dark-primary-color;
 }
 .bg-primary{
   background-color: $primary-color;
 }
-.bg-secondary{
-  background-color: $secondary-color;
+.bg-light-primary{
+  background-color: $light-primary-color;
+}
+.bg-dark-primary{
+  background-color: $dark-primary-color;
 }
 .fill-primary{
   fill: $primary-color;
 }
-.fill-secondary{
-  fill: $secondary-color;
+.fill-light-primary{
+  fill: $light-primary-color;
+}
+.fill-dark-primary{
+  fill: $dark-primary-color;
 }
 // END Colors
 

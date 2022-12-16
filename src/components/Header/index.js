@@ -8,13 +8,13 @@ function Header() {
 
       <div className='Header__socials'>
         <a href="https://www.instagram.com/ecpieritz">
-          <FaInstagram size="25px" className='fill-secondary' />
+          <FaInstagram size="25px" className='fill-dark-primary' />
         </a>
         <a href="https://www.instagram.com/ecpieritz">
-          <FaGithub size="25px" className='fill-secondary' />
+          <FaGithub size="25px" className='fill-dark-primary' />
         </a>
         <a href="https://www.instagram.com/ecpieritz">
-          <FaLinkedin size="25px" className='fill-secondary' />
+          <FaLinkedin size="25px" className='fill-dark-primary' />
         </a>
       </div>
     </div>
