@@ -1,0 +1,28 @@
+@import '../../scss/variables';
+
+.Header{
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &__socials{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    .fill-secondary{
+      transition: fill 1s ease-out 100ms;
+      &:hover{
+        fill: $light-secondary-color;
+      }
+    }
+    @media (max-width: 680px){
+      margin-top: 20px;;
+    }
+  }
+
+  @media (max-width: 680px){
+    flex-direction: column;
+  }
+}
