@@ -3,7 +3,7 @@ import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Header() {
   return (
-    <div className="Header bg-primary">
+    <header className="Header bg-primary">
       <h3>Made with 💙 by Emilyn Pieritz</h3>
 
       <div className='Header__socials'>
@@ -17,7 +17,7 @@ function Header() {
           <FaLinkedin size="25px" className='fill-dark-primary' />
         </a>
       </div>
-    </div>
+    </header>
   );
 }
 
