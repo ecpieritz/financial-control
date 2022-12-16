@@ -1,0 +1,12 @@
+@import '../../scss/variables';
+
+.Title{
+  height: 150px;
+  text-align: center;
+  background-color: $primary-color;
+
+  &__h1{
+    padding-top: 20px;
+    color: $secondary-color;
+  }
+}

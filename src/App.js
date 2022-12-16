@@ -1,12 +1,12 @@
-import './App.scss';
 import Header from './components/Header';
+import Title from './components/Title';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-      <h1>Hello</h1>
-    </div>
+      <Title />
+    </>
   );
 }
 
