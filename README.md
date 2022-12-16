@@ -16,6 +16,8 @@
 - HTML
 - Javascript
 - React
+  - Styled Components
+  - React Icons
 - SASS/SCSS
 
 ---
