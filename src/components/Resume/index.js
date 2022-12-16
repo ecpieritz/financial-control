@@ -1,10 +1,13 @@
 import React from 'react'
 import './style.scss'
+import { ResumeItem } from '../ResumeItem'
 
 const Resume = () => {
   return (
     <section className='Resume'>
-      Resume
+      <ResumeItem />
+      <ResumeItem />
+      <ResumeItem />
     </section>
   )
 }

@@ -1,0 +1,49 @@
+@import '../../scss/variables';
+
+.ResumeItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white;
+  border-radius: 8px;
+  padding: 5px 15px;
+  width: 30%;
+
+  &__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+
+    svg{
+      width: 25px;
+      height: 25px;
+    }
+
+    &__title{
+      font-size: 20px;
+    }
+  }
+
+  &__total{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  @media(max-width: 680px){
+    width: 20%;
+
+    p{
+      font-size: 12px;
+    }
+
+    span{
+      font-size: 20px;
+    }
+
+    svg{
+      display: none;
+    }
+  }
+}
