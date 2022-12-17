@@ -7,8 +7,8 @@ import {FaRegArrowAltCircleUp, FaRegArrowAltCircleDown, FaDollarSign} from 'reac
 const Resume = () => {
   return (
     <section className='Resume'>
-      <ResumeItem title="Entrance" Icon={FaRegArrowAltCircleUp} value="1000" />
-      <ResumeItem title="Exits" Icon={FaRegArrowAltCircleDown} value="1000" />
+      <ResumeItem title="Income" Icon={FaRegArrowAltCircleUp} value="1000" />
+      <ResumeItem title="Expense" Icon={FaRegArrowAltCircleDown} value="1000" />
       <ResumeItem title="Total" Icon={FaDollarSign} value="1000" />
     </section>
   )
