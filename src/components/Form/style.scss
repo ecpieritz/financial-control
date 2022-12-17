@@ -1,0 +1,55 @@
+@import '../../scss/variables';
+
+.Form{
+  max-width: 1120px;
+  margin: 20px auto;
+  width: 98%;
+  background-color: $white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  gap: 10px;
+
+  @media(max-width: 680px){
+    display: grid;
+  }
+
+  &__inputContent{
+    display: flex;
+    flex-direction: column;
+
+    input{
+      outline: none;
+      border-radius: 8px;
+      padding: 5px 10px;
+      font-size: 15px;
+      border: 1px solid $light-gray;
+    }
+  }
+
+  &__radioGroup{
+    display: flex;
+    align-items: center;
+
+    input{
+      margin-left: 20px;
+      accent-color: $dark-primary-color;
+      margin-top: 0;
+    }
+  }
+
+  &__button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: $white;
+    background-color: $primary-color;
+    transition: background-color .5s ease-out 100ms;
+
+    &:hover{
+      background-color: $light-primary-color;
+    }
+  }
+}
