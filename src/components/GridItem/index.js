@@ -7,8 +7,7 @@ import {
 
 const GridItem = ({item, onDelete}) => {
   return (
-    <div className='Grid__item'>
-      <tr>
+      <tr className='Grid__item'>
         <td>{item.desc}</td>
         <td>{item.amount}</td>
         <td className='align-center'>
@@ -18,11 +17,10 @@ const GridItem = ({item, onDelete}) => {
             <FaArrowAltCircleUp className='fill-green' />
           )}
         </td>
-        <td className='align-start'>
+        <td className='align-center'>
             <FaTrash onClick={()=> onDelete(item.id)} />
         </td>
       </tr>
-    </div>
   )
 }
 

@@ -14,8 +14,11 @@
       padding-bottom: 5px;
       text-align: center;
 
-      &.table-40{
-        width: 40%;
+      &.table-60{
+        width: 60%;
+      }
+      &.table-20{
+        width: 20%;
       }
       
       &.table-10{
@@ -24,7 +27,10 @@
       
       @media(max-width: 680px){
         text-align: start;
-        &.table-40{
+        &.table-60{
+          width: auto;
+        }
+        &.table-20{
           width: auto;
         }
   
