@@ -2,9 +2,8 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "xxx" width = "700" height = "auto">
-  <img src = "xxx" width = "350" height = "auto">
-  <img src = "xxx" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/financial-control/blob/main/public/print-1.jpg?raw=true" width = "700" height = "auto">
+  <img src = "https://github.com/ecpieritz/financial-control/blob/main/public/pront-2.jpg?raw=true" width = "700" height = "auto">
 </p>
 
 ## 📖 About
