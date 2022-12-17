@@ -1,0 +1,23 @@
+@import '../../scss/variables';
+
+.Grid{
+  &__item{
+    td{
+      padding-top: 15px;
+      word-break: break-all;
+      
+      &.align-center{
+        text-align: center;
+      }
+
+      &.align-start{
+        text-align: start;
+      }
+
+      svg{
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}
